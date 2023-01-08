@@ -176,7 +176,7 @@ nav li {
 
 /* my resume styles */
 .my-resume {
-    margin: 0 230px 0; 
+    margin: 0 230px 110px; 
 }
 
 .resume-container {
@@ -220,3 +220,47 @@ nav li {
     margin-top: 50px;
     text-align: center;
 }
+
+/* contact styles */
+.contact {
+    padding: 130px 230px;
+    background: #FFF8F3;
+    display: flex;
+    gap: 100px;
+}
+
+.contact-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+}
+
+.contact-desc {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+.social-icons {
+    margin-right: 200px;
+}
+.social-icons a {
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.contact input[type="text"], input[type="email"], textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+input {
+    height: 54px;
+}
+
+/* footer styles */
