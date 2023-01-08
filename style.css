@@ -24,8 +24,11 @@
     line-height: 27px;
     text-align: center;
     padding: 18px;
+    margin-right: 30px;
 }
-
+.icon {
+    margin-right: 10px;
+}
 .section-title {
 
 }
@@ -37,10 +40,13 @@
 /* title and navbar styles */
 .header {
     background: #FFF8F3;
-    padding: 50px 230px;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
 
 nav {
+    padding: 50px 230px;
     display: flex;
     justify-content: space-between;
 }
@@ -56,8 +62,8 @@ nav ul {
 }
 
 nav li {
+    margin-left: 50px;
     list-style-type: none;
-    padding-left: 50px;
     color: #474747;
     font-weight: 400;
     font-size: 20px;
@@ -65,21 +71,23 @@ nav li {
 
 /* header banner styles */
 .banner {
+    padding: 0 50px 0 230px;
     display: flex;
+    align-items: center;
 }
 
 .banner-sub-title {
-    margin-top: 180px;
-    margin-bottom: 15px;
     font-weight: 600;
     font-size: 35px;
     color: #474747;
+    line-height: 61px;
 }
 
 .banner-title {
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 75px;
+    line-height: 116px;
 }
 
 .banner-desc {
@@ -90,7 +98,8 @@ nav li {
     color: #757575;
 }
 
-#profile-img {
-    position: absolute;
-    right: x;
+.banner .btn-primary {
+    background: transparent;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
 }
