@@ -30,11 +30,21 @@
     margin-right: 10px;
 }
 .section-title {
-
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
 }
 
 .section-desc {
-    
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
 }
 
 /* title and navbar styles */
@@ -103,3 +113,34 @@ nav li {
     border: 2px solid #FD6E0A;
     color: #FD6E0A;
 }
+
+/* about me styles */
+.about {
+    margin: 130px 230px;
+    padding: 131px 156px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+
+.about-info-container {
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+}
+.info-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #474747;
+}
+
+/* what i do */
