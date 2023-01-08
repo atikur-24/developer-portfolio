@@ -144,3 +144,33 @@ nav li {
 }
 
 /* what i do */
+.what-i-do {
+    margin: 130px 230px;
+}
+.skill-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+.skill {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.skill-desc {
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 25px;
+    color: #757575;
+
+}
