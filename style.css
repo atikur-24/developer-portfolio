@@ -264,3 +264,28 @@ input {
 }
 
 /* footer styles */
+.footer {
+    padding: 50px 230px;
+    background: #454647;
+    color: #e0dddd;
+    display: flex;
+    gap: 100px;
+}
+.footer-title {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 27px;
+}
+.footer-desc {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.copyright {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
