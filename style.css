@@ -169,8 +169,54 @@ nav li {
 
 .skill-desc {
     font-weight: 400;
-    /* font-size: 16px; */
+    font-size: 16px;
     line-height: 25px;
     color: #757575;
+}
 
+/* my resume styles */
+.my-resume {
+    margin: 0 230px 0; 
+}
+
+.resume-container {
+    margin-top: 110px;
+    display: flex;
+    gap: 50px;
+}
+
+.resume-main-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+}
+.resume-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+}
+
+.resume-sub-title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.resume-desc {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
 }
