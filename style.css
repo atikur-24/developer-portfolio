@@ -283,9 +283,11 @@ input {
     font-size: 16px;
     line-height: 28px;
 }
-.copyright {
+.footer-copyright {
     text-align: left;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+    white-space: nowrap;
+    margin-top: 70px;
 }
