@@ -1,4 +1,6 @@
 * {
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -290,4 +292,84 @@ input {
     line-height: 28px;
     white-space: nowrap;
     margin-top: 70px;
+}
+
+/* Responsive layout styles */
+/* for small devices */
+@media screen and (max-width: 576px) {
+    nav,
+    nav li,
+    .banner,
+    .what-i-do, 
+    .my-resume, 
+    .about, 
+    .contact, 
+    .footer {
+        margin: 0;
+        padding: 0;
+    }
+    nav,
+    .banner,
+    .skill-container, 
+    .resume-container, 
+    .about-info-container, 
+    .contact, 
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .banner img {
+        max-width: 100%;
+    }
+    .header {
+        background-image: none;
+    }
+    .contact input[type="text"], input[type="email"], textarea {
+        padding: 0 0 0 5px;
+    }
+    .resume-container, .about-info-container, .footer, .header {
+        padding: 10px;
+    }
+    .btn-primary, .btn-download {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    nav ul li {
+        padding-bottom: 5px;
+    }
+}
+
+
+/* for medium devices */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .skill-container {
+        flex-wrap: wrap;
+    }
+    .contact {
+        flex-direction: column;
+        gap: 30px;
+    }
+    nav,
+    .banner,
+    .my-resume, 
+    .about, 
+    .contact, 
+    .footer {
+        margin: 0;
+        padding: 0;
+    }
+    nav,
+    .banner,
+    .resume-container, 
+    .contact, 
+    .footer {
+        padding: 10px;
+    }
+    .btn-primary, .btn-download {
+        margin-bottom: 30px;
+    }
 }
